@@ -7,15 +7,15 @@ describe('Fix the Scope', function() {
     });
   });
 
-  describe('upperCaseCustomerName()', function() {
-    it('modifies the customerName variable', function() {
-      expect(window.customerName).to.equal('bob');
-
-      upperCaseCustomerName();
-
-      expect(window.customerName).to.equal('BOB');
-    });
-  });
+  // describe('upperCaseCustomerName()', function() {
+  //   it('modifies the customerName variable', function() {
+  //     expect(window.customerName).to.equal('bob');
+  //
+  //     upperCaseCustomerName();
+  //
+  //     expect(window.customerName).to.equal('BOB');
+  //   });
+  // });
   describe('setBestCustomer()', function() {
     it('setBestCustomer', function() {
       expect(window.bestCustomer).to.equal(undefined);
